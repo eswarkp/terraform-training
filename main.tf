@@ -1,9 +1,9 @@
 variable "story" {
-  default = "eswarkp is awesome"
+  default = "there were lot of lakes"
 }
 
 module "ankitmodule" {
-  source = "git@github.com:AnkitKusuma566/ankit_story.git"
+  source = "git@github.com:AnkitKusuma566/ankit_story.git?ref=v0.0.1"
 }
 
 output "story" {
