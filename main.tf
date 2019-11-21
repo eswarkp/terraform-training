@@ -3,7 +3,7 @@ variable "story" {
 }
 
 module "ankitmodule" {
-  source = "https://github.com/AnkitKusuma566/ankit_story/ankitmodule.tf"
+  source = "https://github.com/AnkitKusuma566/ankit_story"
 }
 
 output "story" {
