@@ -3,9 +3,10 @@ variable "story" {
 }
 
 # module "ankitmodule" {
-#   source = "https://github.com/AnkitKusuma566/ankit_story"
+#   source = "git@github.com:AnkitKusuma566/ankit_story.git"
 # }
 
 output "story" {
-  value = " ${var.story}"
+  # value = "${module.ankitmodule.story} ${var.story}"
+  value = "${var.story}"
 }
