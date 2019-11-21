@@ -3,7 +3,7 @@ variable "story" {
 }
 
 module "ankitmodule" {
-  source = "git@github.com:AnkitKusuma566/ankit_story.git?ref=v0.0.1"
+  source = "git@github.com:AnkitKusuma566/ankit_story.git?ref=v0.0.4"
 }
 
 output "story" {
